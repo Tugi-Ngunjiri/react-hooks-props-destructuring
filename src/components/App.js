@@ -11,7 +11,8 @@ function App() {
   return (
     <div className="App">
       {/*passing down the props from the parent component */}
-      <MovieCard title={title} genres={genresArr} />
+      <MovieCard
+       title={title} genres={genresArr} />
     </div>
   );
 }
